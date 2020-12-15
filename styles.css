@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+:root{
+    /* --primary: #F2C94C; */
+    --black: #333333;
+    --primary: white;
+    --secondary : #569fa9;
+    --width-break:600px
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+div {
+    display: block;
+    
+    
+}
+
+main {
+    margin: auto;
+    padding: 0.5rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--secondary);
+    border: none;
+  
+     margin: 1rem 0rem; 
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+    font-family: inherit;
+}
+
+
+/* #outputText {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+} */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary);
+    text-align: center;
+  
+}
+
+
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
